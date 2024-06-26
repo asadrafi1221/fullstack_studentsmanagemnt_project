@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        height: 100vh;
+        color:white;
+        display: flex;
+         justify-content: center; 
+         align-items: center; 
+        flex-direction: column;
+    }
+    h2{
+        position: relative;
+        top:70px;
+        font-size: 50px;
+        
+    }
+    h1 {
+    font-size: 200px; /* Adjust size as needed */
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: move 2s infinite ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+</style>
+<body>
+    <h2><em>You Did Something Wrong (404) Caught</em></h2>
+    <h1>😕</h1>
+</body>
+</html>
